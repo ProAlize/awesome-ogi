@@ -7,32 +7,45 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
 ## Table of Contents
 
 - [Papers](#papers)
-    - [HardWare & System]()
-        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#An-Effective-Method-for-Gas-Leak-Area-Detection-and-Gas-Identification-with-Mid-Infrared-Image)
-    
+    - [HardWare & System](#hardware--system)
+        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#an-effective-method-for-gas-leak-area-detection-and-gas-identification-with-mid-infrared-image)
+        - [Propane gas leak detection by infrared absorption using carbon infraredemitter and infrared camera]()
     - [Algorithm]()
     
         - [Deep Learning](#deep-learning-based-ogi)
-            - [Machine vision for natural gas methane emissions detection using an infrared camera](#Machine-vision-for-natural-gas-methane-emissions-detection-using-an-infrared-camera)    
+            - [Machine vision for natural gas methane emissions detection using an infrared camera](#machine-vision-for-natural-gas-methane-emissions-detection-using-an-infrared-camera2018)    
             
-            - [Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging](#gasformer-a-transformer-based-architecture-for-segmenting-methane-emissions-from-livestock-in-optical-gas-imaging)
+            - [Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging](#gasformer-a-transformer-based-architecture-for-segmenting-methane-emissions-from-livestock-in-optical-gas-imaging2024)
             
-            - [Invisible Gas Detection: An RGB-Thermal Cross Attention Network and A New Benchmark](#invisible-gas-detection-an-rgb-thermal-cross-attention-network-and-a-new-benchmark)
+            - [Invisible Gas Detection: An RGB-Thermal Cross Attention Network and A New Benchmark](#invisible-gas-detection-an-rgb-thermal-cross-attention-network-and-a-new-benchmark2024)
             
-            - [VideoGasNet: Deep learning for natural gas methane leak classification using an infrared camera](#videogasnet-deep-learning-for-natural-gas-methane-leak-classification-using-an-infrared-camera)
+            - [VideoGasNet: Deep learning for natural gas methane leak classification using an infrared camera](#videogasnet-deep-learning-for-natural-gas-methane-leak-classification-using-an-infrared-camera2022)
 
 ## HardWare & System
 ### An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image
 - overview:
-- [paper]()
+- [paper](https://www.mdpi.com/2304-6732/9/12/992)
+- code: not available
+- datasets: not available
+
+### Propane gas leak detection by infrared absorption using carbon infraredemitter and infrared camera
+- overview: 
+This study introduces a propane gas leak detection system based on infrared absorption using a carbon infrared emitter (CIE) and an infrared camera. 
+    - The hardware includes a CIE transmitting infrared wavelengths of 1–5 μm, a parabolic reflector for uniform infrared radiation, and a Raytheon-Amber Radiance HS infrared camera equipped with an indium antimonide (InSb) detector. The study uses a bandpass filter centered at 3.37 μm to isolate the absorption band of propane gas. 
+    - Infrared intensity changes due to propane absorption are analyzed to create real-time images of gas leaks. The algorithm correlates the intensity and concentration-pathlength product to evaluate hazards.
+
+- [paper](https://www.sciencedirect.com/science/article/pii/S0963869510001143)
 - code: not available
 - datasets: not available
 
 ## Deep Learning based OGI:
 
 ### Machine vision for natural gas methane emissions detection using an infrared camera(2018)
-- overview:
-- [paper]()
+- overview: 
+This paper introduces a novel approach for detecting methane emissions using an infrared camera and a deep learning-based system, GasNet. 
+    - The hardware includes the FLIR GF320 infrared camera and a controlled experimental facility with various leak sources. The study leverages a labeled video dataset, GasVid, which captures methane leaks at different flow rates and imaging distances. 
+    - The algorithm uses convolutional neural networks (CNNs) to identify methane plumes through background subtraction and feature extraction. 
+- [paper](https://www.sciencedirect.com/science/article/pii/S030626191931685X)
 - code: not available
 - datasets: not available
 
@@ -61,7 +74,7 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
 
 
 
-continue update...
+continue updating...
 
 
 
