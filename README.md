@@ -1,17 +1,16 @@
 # Awesome OGI [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-An overview of OGI technology papers, codes and datasets.
+Optical Gas Imaging (OGI) has become a key tool in gas leak detection and industrial safety. This curated list includes research papers, tools, frameworks, and tutorials on OGI technology. It covers OGI hardware, software, real-time leak detection, and applications in industries like oil & gas, chemicals, and environmental monitoring. Whether you're looking for the latest studies or tools for deployment, this resource provides essential insights into OGI.
 
 ## Table of Contents
 
 - [Papers](#papers)
     - [HardWare & System]()
-        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image)
+        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#An-Effective-Method-for-Gas-Leak-Area-Detection-and-Gas-Identification-with-Mid-Infrared-Image)
     
     - [Algorithm]()
     
         - [Deep Learning](#deep-learning-based-ogi)
-            - [Machine vision for natural gas methane emissions detection using an infrared camera](#Machine vision for natural gas methane emissions detection using an infrared camera)    
+            - [Machine vision for natural gas methane emissions detection using an infrared camera](#Machine-vision-for-natural-gas-methane-emissions-detection-using-an-infrared-camera)    
             
             - [Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging](#gasformer-a-transformer-based-architecture-for-segmenting-methane-emissions-from-livestock-in-optical-gas-imaging)
             
