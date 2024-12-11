@@ -7,9 +7,12 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
 ## Table of Contents
 
 - [Papers](#papers)
+
     - [HardWare & System](#hardware--system)
-        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#an-effective-method-for-gas-leak-area-detection-and-gas-identification-with-mid-infrared-image)
-        - [Propane gas leak detection by infrared absorption using carbon infraredemitter and infrared camera]()
+        - [Propane gas leak detection by infrared absorption using carbon infraredemitter and infrared camera](#propane-gas-leak-detection-by-infrared-absorption-using-carbon-infraredemitter-and-infrared-camera2011)
+        
+        - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#an-effective-method-for-gas-leak-area-detection-and-gas-identification-with-mid-infrared-image2022)
+
     - [Algorithm]()
     
         - [Deep Learning](#deep-learning-based-ogi)
