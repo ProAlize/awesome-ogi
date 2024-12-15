@@ -24,6 +24,11 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
             
             - [VideoGasNet: Deep learning for natural gas methane leak classification using an infrared camera](#videogasnet-deep-learning-for-natural-gas-methane-leak-classification-using-an-infrared-camera2022)
 
+    - [Limit](#limit)
+        - [Detection limits of optical gas imagers as a function of temperature differential and distance](#detection-limits-of-optical-gas-imagers-as-a-function-of-temperature-differential-and-distance2019)
+        - [Detection Limits of Optical Gas Imaging for Natural Gas Leak Detection in Realistic Controlled Conditions](#detection-limits-of-optical-gas-imaging-for-natural-gas-leak-detection-in-realistic-controlled-conditions2020)
+
+
 ## HardWare & System
 
 ### Propane gas leak detection by infrared absorption using carbon infraredemitter and infrared camera(2011)
@@ -94,6 +99,27 @@ This study introduces RT-CAN (RGB-Thermal Cross Attention Network), a novel two-
 - [code](https://github.com/logic112358/RT-CAN)
 - [datasets](https://drive.google.com/drive/folders/11t324MSRVQhptfLLu65MlPaSaPOJRf4Z?usp=sharing) 
 
+
+
+
+## Limit
+
+### Detection limits of optical gas imagers as a function of temperature differential and distance(2019)
+
+- overview:<br>
+
+
+- [paper](https://www.tandfonline.com/doi/abs/10.1080/10962247.2018.1540366)
+
+
+
+
+### Detection Limits of Optical Gas Imaging for Natural Gas Leak Detection in Realistic Controlled Conditions(2020)
+
+- overview:<br>
+
+
+- [paper](https://pubs.acs.org/doi/abs/10.1021/acs.est.0c01285)
 
 
 
