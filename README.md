@@ -82,7 +82,6 @@ This study presents Gasformer, a novel Transformer-based architecture for semant
     - The hardware employs the FLIR GF77 optical gas imaging camera to capture two unique datasets: a controlled methane release dataset and a dairy cow rumen gas dataset. 
     - The research integrates a Mix Vision Transformer encoder to extract multi-scale features and a Light-Ham decoder for refining segmentation maps. The algorithm leverages advanced self-attention mechanisms and matrix decomposition to achieve accurate segmentation. 
 
-
 - [paper](https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/html/Sarker_Gasformer_A_Transformer-based_Architecture_for_Segmenting_Methane_Emissions_from_Livestock_CVPRW_2024_paper.html)
 - [code](https://github.com/toqitahamid/Gasformer)
 - datasets: not available
@@ -107,17 +106,49 @@ This study introduces RT-CAN (RGB-Thermal Cross Attention Network), a novel two-
 ### Detection limits of optical gas imagers as a function of temperature differential and distance(2019)
 
 - overview:<br>
-
+This paper investigates the detection limits of Optical Gas Imaging (OGI) as a function of temperature differential (ΔT) and distance, providing quantitative models to predict OGI detection limits under varying temperature differentials and distances.
+    - Optical Gas Imaging (OGI) Contrast Equation:
+        $$
+        \Delta I = \left[ B(T_B, \lambda) - B(T_G, \lambda) \right] \cdot \left[ 1 - \exp(-\alpha(\lambda)CL) \right] \cdot t(\lambda)
+        $$
+    - Detection Limit versus Temperature Difference:
+        $$
+        DL_{\text{ppm-m}} = \alpha \cdot |\Delta T|^{\beta}
+        $$
+    - Detection limit (g/h) versus distance and temperature difference:
+        $$
+        DL_{\text{gph}} = c \cdot DL_{\text{ppm-m}} \cdot d^2 \cdot w \cdot \frac{P}{T} \cdot \frac{\text{MW}}{R}
+        $$
+    - Simplified mass flow rate detection limit equation:
+        When using a FLIR GF320 camera with a 23 mm lens and assuming normal diffusion conditions, the mass flow rate detection limit can be simplified to:
+        $$
+        DL_{\text{gph}} = 18.41 \cdot |\Delta T|^{-1.094} \cdot d^2
+        $$
+    - Comparison of detection limits for absorptive and radiative plumes
+    Ratio of detection limits for absorptive and radiative plumes at the same absolute temperature difference ($\Delta T$):
+    for methane:
+    $$
+    \frac{DL_{\text{ppm-m, absorption}}}{DL_{\text{ppm-m, radiant}}} \approx 1.19 \, \text{to} \, 2.55
+    $$
+    for propane:
+    $$
+    \frac{DL_{\text{ppm-m, absorption}}}{DL_{\text{ppm-m, radiant}}} \approx 1.11 \, \text{to} \, 2.35
+    $$
+    - Calculation of the maximum permissible detection distance
+    If the target detection limit is set (e.g. 30 g/h), the maximum permissible detection distance is calculated according to the temperature difference $\Delta T$, the maximum permissible detection distance is calculated:
+    $$
+    d_{\text{max}} = \sqrt{\frac{DL_{\text{gph}}}{c_1 \cdot |\Delta T|^{-1.094}}}
+    $$
 
 - [paper](https://www.tandfonline.com/doi/abs/10.1080/10962247.2018.1540366)
-
-
 
 
 ### Detection Limits of Optical Gas Imaging for Natural Gas Leak Detection in Realistic Controlled Conditions(2020)
 
 - overview:<br>
-
+This study evaluates the detection limits of Optical Gas Imaging (OGI) technology under realistic, controlled conditions, focusing on the natural gas industry's upstream sector. The study was conducted at Colorado State University's METEC facility, where surveyors from various companies and agencies participated in leak detection tasks. The study identifies the critical roles of hardware, environmental conditions, and human factors in influencing detection efficiency.
+    - The hardware employs the FLIR GF320 optical gas imaging camera, which operates in the 3.2–3.4 μm infrared spectral band, to capture controlled methane gas emissions under realistic outdoor conditions.
+    - The system includes a multi-faceted testing setup at the METEC facility, featuring three simulated well pads. Controlled solenoid valves and Omega FMA-1700 thermal mass flow meters precisely regulate and measure gas emission rates. Environmental variables, such as wind speed, temperature, and background types (e.g., ground, equipment, and sky), are integrated into the system to assess detection performance under varying conditions.
 
 - [paper](https://pubs.acs.org/doi/abs/10.1021/acs.est.0c01285)
 
