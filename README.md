@@ -119,12 +119,12 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
         
         $$DL_{\text{gph}} = c \cdot DL_{\text{ppm-m}} \cdot d^2 \cdot w \cdot \frac{P}{T} \cdot \frac{\text{MW}}{R}$$
     
-    - Simplified mass flow rate detection limit equation:
+    - Simplified mass flow rate detection limit equation:<br>
         When using a FLIR GF320 camera with a 23 mm lens and assuming normal diffusion conditions, the mass flow rate detection limit can be simplified to:<br>
         
         $$DL_{\text{gph}} = 18.41 \cdot |\Delta T|^{-1.094} \cdot d^2$$
     
-    - Comparison of detection limits for absorptive and radiative plumes:
+    - Comparison of detection limits for absorptive and radiative plumes:<br>
         Ratio of detection limits for absorptive and radiative plumes at the same absolute temperature difference ($\Delta T$):<br>
         for methane:<br>
         
