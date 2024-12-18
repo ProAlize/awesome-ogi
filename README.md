@@ -124,8 +124,8 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
         ```math
         DL_{\text{gph}} = 18.41 \cdot |\Delta T|^{-1.094} \cdot d^2
         ```
-    - Comparison of detection limits for absorptive and radiative plumes
-        Ratio of detection limits for absorptive and radiative plumes at the same absolute temperature difference ($ \Delta T $):
+    - Comparison of detection limits for absorptive and radiative plumes:
+        Ratio of detection limits for absorptive and radiative plumes at the same absolute temperature difference ($\Delta T$):<br>
         for methane:<br>
         ```math
         \frac{DL_{\text{ppm-m, absorption}}}{DL_{\text{ppm-m, radiant}}} \approx 1.19 \, \text{to} \, 2.55
@@ -134,8 +134,8 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
         ```math
         \frac{DL_{\text{ppm-m, absorption}}}{DL_{\text{ppm-m, radiant}}} \approx 1.11 \, \text{to} \, 2.35
         ```
-    - Calculation of the maximum permissible detection distance
-        If the target detection limit is set (e.g. 30 g/h), the maximum permissible detection distance is calculated according to the temperature difference $ \Delta T $, the maximum permissible detection distance is calculated:<br>
+    - Calculation of the maximum permissible detection distance:<br>
+        If the target detection limit is set (e.g. 30 g/h), the maximum permissible detection distance is calculated according to the temperature difference $\Delta T$, the maximum permissible detection distance is calculated:<br>
         ```math
         d_{\text{max}} = \sqrt{\frac{DL_{\text{gph}}}{c_1 \cdot |\Delta T|^{-1.094}}}
         ```
