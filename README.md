@@ -146,7 +146,7 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
 ### Detection Limits of Optical Gas Imaging for Natural Gas Leak Detection in Realistic Controlled Conditions(2020)
 
 - overview:<br>
-This study evaluates the detection limits of Optical Gas Imaging (OGI) technology under realistic, controlled conditions, focusing on the natural gas industry's upstream sector. The study was conducted at Colorado State University's METEC facility, where surveyors from various companies and agencies participated in leak detection tasks. The study identifies the critical roles of hardware, environmental conditions, and human factors in influencing detection efficiency.
+The study identifies the critical roles of hardware, environmental conditions, and human factors in influencing detection efficiency.
     - The hardware employs the FLIR GF320 optical gas imaging camera, which operates in the 3.2–3.4 μm infrared spectral band, to capture controlled methane gas emissions under realistic outdoor conditions.
     - The system includes a multi-faceted testing setup at the METEC facility, featuring three simulated well pads. Controlled solenoid valves and Omega FMA-1700 thermal mass flow meters precisely regulate and measure gas emission rates. Environmental variables, such as wind speed, temperature, and background types (e.g., ground, equipment, and sky), are integrated into the system to assess detection performance under varying conditions.
 
