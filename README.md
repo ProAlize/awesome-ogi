@@ -119,12 +119,12 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
         
         $$DL_{\text{gph}} = c \cdot DL_{\text{ppm-m}} \cdot d^2 \cdot w \cdot \frac{P}{T} \cdot \frac{\text{MW}}{R}$$
     
-    - Simplified mass flow rate detection limit equation:
+    - Simplified mass flow rate detection limit equation:<br>
         When using a FLIR GF320 camera with a 23 mm lens and assuming normal diffusion conditions, the mass flow rate detection limit can be simplified to:<br>
         
         $$DL_{\text{gph}} = 18.41 \cdot |\Delta T|^{-1.094} \cdot d^2$$
     
-    - Comparison of detection limits for absorptive and radiative plumes:
+    - Comparison of detection limits for absorptive and radiative plumes:<br>
         Ratio of detection limits for absorptive and radiative plumes at the same absolute temperature difference ($\Delta T$):<br>
         for methane:<br>
         
@@ -146,7 +146,7 @@ This paper investigates the detection limits of Optical Gas Imaging (OGI) as a f
 ### Detection Limits of Optical Gas Imaging for Natural Gas Leak Detection in Realistic Controlled Conditions(2020)
 
 - overview:<br>
-This study evaluates the detection limits of Optical Gas Imaging (OGI) technology under realistic, controlled conditions, focusing on the natural gas industry's upstream sector. The study was conducted at Colorado State University's METEC facility, where surveyors from various companies and agencies participated in leak detection tasks. The study identifies the critical roles of hardware, environmental conditions, and human factors in influencing detection efficiency.
+The study identifies the critical roles of hardware, environmental conditions, and human factors in influencing detection efficiency.
     - The hardware employs the FLIR GF320 optical gas imaging camera, which operates in the 3.2–3.4 μm infrared spectral band, to capture controlled methane gas emissions under realistic outdoor conditions.
     - The system includes a multi-faceted testing setup at the METEC facility, featuring three simulated well pads. Controlled solenoid valves and Omega FMA-1700 thermal mass flow meters precisely regulate and measure gas emission rates. Environmental variables, such as wind speed, temperature, and background types (e.g., ground, equipment, and sky), are integrated into the system to assess detection performance under varying conditions.
 
