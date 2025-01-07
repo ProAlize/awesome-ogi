@@ -16,10 +16,16 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
     - [Algorithm]()
     
         - [Deep Learning](#deep-learning-based-ogi)
-            - [Machine vision for natural gas methane emissions detection using an infrared camera](#machine-vision-for-natural-gas-methane-emissions-detection-using-an-infrared-camera2018)    
-            - [VideoGasNet: Deep learning for natural gas methane leak classification using an infrared camera](#videogasnet-deep-learning-for-natural-gas-methane-leak-classification-using-an-infrared-camera2022)            
+
+            - [Machine vision for natural gas methane emissions detection using an infrared camera](#machine-vision-for-natural-gas-methane-emissions-detection-using-an-infrared-camera2018)
+
+            - [VideoGasNet: Deep learning for natural gas methane leak classification using an infrared camera](#videogasnet-deep-learning-for-natural-gas-methane-leak-classification-using-an-infrared-camera2022)
+
             - [Gasformer: A Transformer-based Architecture for Segmenting Methane Emissions from Livestock in Optical Gas Imaging](#gasformer-a-transformer-based-architecture-for-segmenting-methane-emissions-from-livestock-in-optical-gas-imaging2024)
+
             - [Invisible Gas Detection: An RGB-Thermal Cross Attention Network and A New Benchmark](#invisible-gas-detection-an-rgb-thermal-cross-attention-network-and-a-new-benchmark2024)
+            
+            - [Improved Background Estimation for Gas Plume Identification in Hyperspectral Images](#improved-background-estimation-for-gas-plume-identification-in-hyperspectral-images2024) 
             
 
 
@@ -98,13 +104,29 @@ This study introduces RT-CAN (RGB-Thermal Cross Attention Network), a novel two-
 - [code](https://github.com/logic112358/RT-CAN)
 - [datasets](https://drive.google.com/drive/folders/11t324MSRVQhptfLLu65MlPaSaPOJRf4Z?usp=sharing) 
 
+### Improved Background Estimation for Gas Plume Identification in Hyperspectral Images(2024)
+- overview<br>
+This paper explores the improvement of background estimation methods to enhance the recognition performance of gas plumes in long-wave infrared hyperspectral images. 
+    - The purpose of the study is to determine which method can most accurately estimate the background radiation below the plume and improve the confidence level of the neural network in recognizing the gas.
+    - The paper proposes two new methods, K-Nearest Segments (KNS) and K-Nearest Neighbors (KNN), and compares them with three existing methods: PCA, KMeans, and the ring-band method. 
+    - It was found that PCA performed the best in background estimation. However, KNS performed best in improving the confidence of the neural network in recognizing gases that are difficult to identify, such as C2H2 and N2O. The paper also explores the sensitivity of the different methods to hyperparameters and finds that KNN and PCA are insensitive to hyperparameters, while KNS and the ring-band method require more tuning.
+    - The paper tests these methods by simulating 640 plumes with different gases and signal strengths, and shows that PCA, while having the best background estimation, does not directly translate into better identification confidence, possibly because it is a global method that does not handle local variations well. Future work may need to explore local covariance estimation and test the performance of these methods on real data.
 
+
+Translated with DeepL.com (free version)
+- [paper](https://arxiv.org/pdf/2411.15378)
+- code:not available
+- datasets:not available
 
 
 ## Limit
 
 ### Are Optical Gas Imaging Technologies Effective For Methane Leak Detection?(2016)
 - overview<br>
+This study investigates the detection limits of Optical Gas Imaging (OGI) technology for detecting natural gas leaks in realistic controlled conditions. 
+    - Conducted at Colorado State University's Methane Emissions Technology Evaluation Center (METEC), the research examines the impact of hardware performance, environmental factors, and human factors on the efficiency of OGI leak detection.
+    - The study utilizes the FLIR GF320 infrared camera, operating in the 3.2–3.4 μm spectral band, to capture methane emissions from controlled leakage points at varying flow rates. 
+    - Surveyor experience significantly influences detection rates, with highly experienced surveyors detecting 1.7 times more leaks than those with less experience. The findings underscore the importance of background contrast, wind speed, and survey protocol in optimizing detection performance.
 
 - [paper](https://pubs.acs.org/doi/full/10.1021/acs.est.6b03906)
 
