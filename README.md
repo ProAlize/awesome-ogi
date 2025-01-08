@@ -13,7 +13,7 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
         
         - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#an-effective-method-for-gas-leak-area-detection-and-gas-identification-with-mid-infrared-image2022)
 
-        - [Detection and tracking of gas plumes in LWIR hyperspectral video sequence data]()
+        - [Detection and tracking of gas plumes in LWIR hyperspectral video sequence data](#detection-and-tracking-of-gas-plumes-in-lwir-hyperspectral-video-sequence-data2024)
 
     - [Algorithm]()
     
@@ -69,7 +69,7 @@ This paper presents a method for detecting and segmenting chemical gas plumes in
     Principal Component Analysis (PCA) is used to reduce the high-dimensional hyperspectral data, focusing on the most informative components to create a false-color RGB representation.
         - Histogram Equalization (Midway Method):
     Midway histogram equalization smooths intensity variations across video frames, reducing flicker and improving frame-to-frame continuity.
-    
+
     - Clustering Techniques for Segmentation:
         - K-means Clustering: Applied with Euclidean and cosine distance metrics, K-means effectively separates plume regions but can suffer from initialization sensitivity.
         - Spectral Clustering: Utilizes eigenvalues of the graph Laplacian to form clusters. Feature vectors enhance segmentation quality.
