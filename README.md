@@ -13,6 +13,8 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
         
         - [An Effective Method for Gas-Leak Area Detection and Gas Identification with Mid-Infrared Image](#an-effective-method-for-gas-leak-area-detection-and-gas-identification-with-mid-infrared-image2022)
 
+        - [Detection and tracking of gas plumes in LWIR hyperspectral video sequence data]()
+
     - [Algorithm]()
     
         - [Deep Learning](#deep-learning-based-ogi)
@@ -56,6 +58,28 @@ This study presents an effective method for gas-leak area detection and gas iden
 - [paper](https://www.mdpi.com/2304-6732/9/12/992)
 - code: not available
 - datasets: not available
+
+### Detection and tracking of gas plumes in LWIR hyperspectral video sequence data(2024)
+
+- overview:<br>
+This paper presents a method for detecting and segmenting chemical gas plumes in LWIR hyperspectral video sequences. It addresses challenges in plume segmentation due to its diffusive nature and invisibility in standard RGB imagery. The proposed approach combines Principal Component Analysis (PCA) for dimensionality reduction, Midway histogram equalization for frame smoothing, and clustering techniques (K-means, spectral clustering, and a modified MBO scheme) for segmentation. Results demonstrate the effectiveness of these methods in isolating gas plumes, with the modified MBO scheme achieving the best performance.
+
+    - Data Processing Pipeline:<br>
+        - Dimensionality Reduction (PCA):
+    Principal Component Analysis (PCA) is used to reduce the high-dimensional hyperspectral data, focusing on the most informative components to create a false-color RGB representation.
+        - Histogram Equalization (Midway Method):
+    Midway histogram equalization smooths intensity variations across video frames, reducing flicker and improving frame-to-frame continuity.
+    
+    - Clustering Techniques for Segmentation:
+        - K-means Clustering: Applied with Euclidean and cosine distance metrics, K-means effectively separates plume regions but can suffer from initialization sensitivity.
+        - Spectral Clustering: Utilizes eigenvalues of the graph Laplacian to form clusters. Feature vectors enhance segmentation quality.
+        - Modified MBO Scheme: A semi-supervised method based on minimizing the Ginzburg-Landau functional for refined segmentation of gas plumes.
+
+- [paper](https://arxiv.org/pdf/2411.00281)
+- code: not available
+- datasets: not available
+
+
 
 ## Deep Learning based OGI:
 
