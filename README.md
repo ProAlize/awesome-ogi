@@ -29,7 +29,7 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
             
             - [Improved Background Estimation for Gas Plume Identification in Hyperspectral Images](#improved-background-estimation-for-gas-plume-identification-in-hyperspectral-images2024) 
             
-
+            - [Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning]()
 
     - [Limit](#limit)
         - [Are Optical Gas Imaging Technologies Effective For Methane Leak Detection?](#are-optical-gas-imaging-technologies-effective-for-methane-leak-detection2016)
@@ -137,10 +137,22 @@ This paper explores the improvement of background estimation methods to enhance 
     - The paper tests these methods by simulating 640 plumes with different gases and signal strengths, and shows that PCA, while having the best background estimation, does not directly translate into better identification confidence, possibly because it is a global method that does not handle local variations well. Future work may need to explore local covariance estimation and test the performance of these methods on real data.
 
 
-Translated with DeepL.com (free version)
 - [paper](https://arxiv.org/pdf/2411.15378)
 - code:not available
 - datasets:not available
+
+### Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning(2024)
+
+- overview<br>
+This study introduces a deep learning framework for detecting and quantifying black carbon (BC) plumes from gas flaring using Sentinel-2 multi-spectral satellite imagery.
+    - The hardware includes the Sentinel-2 satellite, which provides high-resolution multi-spectral imagery, including RGB and infrared bands, used to identify gas flares and BC plumes.
+    - This study integrates traditional flare-identification algorithms (e.g., Normalized Hotspot Indices and Thermal Anomaly Index) with a ConvLSTM deep learning model to detect BC plumes. Synthetic BC plumes are generated using a custom 2D LES plume model for training the deep learning model.
+    - The model achieves high accuracy in detecting BC plumes, particularly for large plumes, and estimates BC emissions using the Integrated Mass Enhancement (IME) method. The study estimates that BC emissions from gas flaring in North Africa in 2022 amounted to 6.2 Gg, with Algeria contributing 75% of the total.
+
+- [paper](https://arxiv.org/pdf/2406.06183)
+- code:not available
+- datasets:not available
+
 
 
 ## Limit
