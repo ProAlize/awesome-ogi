@@ -32,9 +32,9 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
             
             - [Improved Background Estimation for Gas Plume Identification in Hyperspectral Images](#improved-background-estimation-for-gas-plume-identification-in-hyperspectral-images2024) 
             
-            - [Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning]()
+            - [Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning](#black-carbon-plumes-from-gas-flaring-in-north-africa-identified-from-multi-spectral-imagery-with-deep-learning2024)
 
-            - [LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset]()
+            - [LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset](#langgas-introducing-language-in-selective-zero-shot-background-subtraction-for-semi-transparent-gas-leak-detection-with-a-new-dataset-2025)
               
     - [Limit](#limit)
         - [Are Optical Gas Imaging Technologies Effective For Methane Leak Detection?](#are-optical-gas-imaging-technologies-effective-for-methane-leak-detection2016)
