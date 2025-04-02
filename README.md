@@ -34,6 +34,8 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
             
             - [Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning]()
 
+            - [LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset]()
+              
     - [Limit](#limit)
         - [Are Optical Gas Imaging Technologies Effective For Methane Leak Detection?](#are-optical-gas-imaging-technologies-effective-for-methane-leak-detection2016)
         - [Detection limits of optical gas imagers as a function of temperature differential and distance](#detection-limits-of-optical-gas-imagers-as-a-function-of-temperature-differential-and-distance2019)
@@ -165,6 +167,15 @@ This study introduces a deep learning framework for detecting and quantifying bl
 - code: *not available*
 - datasets: *not available*
 
+### LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset (2025)
+- overview<br>
+    - Used Background Subtraction with Vision Langugae Model to detect leakage
+    - Used SAM 2 to segment the leakage
+    - Tested on a computer-rendered dataset
+
+- [paper](https://arxiv.org/abs/2503.02910)
+- [dataset](https://paperswithcode.com/dataset/simgas)
+- [code](https://github.com/weathon/Lang-Gas)
 
 
 ## Limit
