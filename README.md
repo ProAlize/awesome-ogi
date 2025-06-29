@@ -34,7 +34,13 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
             
             - [Black carbon plumes from gas flaring in North Africa identified from multi-spectral imagery with deep learning](#black-carbon-plumes-from-gas-flaring-in-north-africa-identified-from-multi-spectral-imagery-with-deep-learning2024)
 
+            - [A lightweight network based on local-global feature fusion for real-time industrial invisible gas detection with infrared thermography](#a-lightweight-network-based-on-local-global-feature-fusion-for-real-time-industrial-invisible-gas-detection-with-infrared-thermography-2024)
+
             - [LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset](#langgas-introducing-language-in-selective-zero-shot-background-subtraction-for-semi-transparent-gas-leak-detection-with-a-new-dataset-2025)
+
+            - [GasSeg: A lightweight real-time infrared gas segmentation network for edge devices](#gasseg-a-lightweight-real-time-infrared-gas-segmentation-network-for-edge-devices-2025) 
+
+            - [Contrast Gas Detection: Improving Infrared Gas Semantic Segmentation with Static Background](#contrast-gas-detection-improving-infrared-gas-semantic-segmentation-with-static-background-2025)
               
     - [Limit](#limit)
         - [Are Optical Gas Imaging Technologies Effective For Methane Leak Detection?](#are-optical-gas-imaging-technologies-effective-for-methane-leak-detection2016)
@@ -167,6 +173,25 @@ This study introduces a deep learning framework for detecting and quantifying bl
 - code: *not available*
 - datasets: *not available*
 
+### A lightweight network based on local-global feature fusion for real-time industrial invisible gas detection with infrared thermography (2024)
+
+   - overview
+        - This research introduces GasViT, a novel lightweight network specialized for detecting industrial invisible gases in thermal images by fusing local and global features. The model is designed to overcome challenges posed by indistinct gas features and the high computational cost of existing methods.
+
+        - The paper presents the Industrial Invisible Gas (IIG) Dataset, a self-made collection of 5,569 thermal images containing 11,186 gas leakage instances across five different industrial scenarios.
+
+        - The architecture features two new modules: the Multi-scale Fusion Feature Attention (MsFFA), which enhances local feature extraction , and the Multi-head Linear Self-attention (MhLSa), which efficiently encodes global information at a low computational cost.
+
+        - GasViT achieves 82.7% mAP50 on the IIG dataset, outperforming other state-of-the-art lightweight networks. It can be deployed on edge devices, reaching 33 FPS with a memory footprint of only 47.2 MB, making it highly suitable for portable and embedded detection systems.
+
+
+- [paper](https://doi.org/10.1016/j.asoc.2023.111138)
+
+- code: *Not publicly available*.
+
+- datasets: *Not publicly available; the paper states, "Data will be made available on request"*.
+
+
 ### LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset (2025)
 - overview<br>
     - Used Background Subtraction with Vision Langugae Model to detect leakage
@@ -176,6 +201,42 @@ This study introduces a deep learning framework for detecting and quantifying bl
 - [paper](https://arxiv.org/abs/2503.02910)
 - [dataset](https://paperswithcode.com/dataset/simgas)
 - [code](https://github.com/weathon/Lang-Gas)
+
+### GasSeg: A lightweight real-time infrared gas segmentation network for edge devices (2025)
+- overview<br>
+
+    - This paper proposes GasSeg, a lightweight, dual-branch neural network designed for real-time infrared gas segmentation (IGS) on edge computing devices. Its purpose is to identify gas regions within infrared images to aid in leakage prevention and detection.
+
+    - To facilitate research, the authors introduce a high-quality, real-world IGS dataset containing 6,426 images and 7,390 gas segmentation annotations collected from authentic industrial scenarios.
+
+    - Key technical innovations include a Boundary-Aware Stem (BA Stem) to improve sensitivity to gas shapes , a dual-branch architecture where a boundary guidance branch refines a context branch , and a Contextual Attention Pyramid Pooling Module (CAPPM) to capture essential global features.
+
+    - GasSeg demonstrates state-of-the-art performance, achieving 90.68% mIoU and 95.02% mF1, with inference speeds of 215 FPS on a GPU and 62 FPS on an edge platform, making it suitable for real-world industrial applications.
+
+
+ - [paper](https://doi.org/10.1016/j.patcog.2025.111931)
+ - [code](https://github.com/FisherYuuri/GasSeg)
+ - [datasets](https://github.com/FisherYuuri/GasSeg)
+
+### Contrast Gas Detection: Improving Infrared Gas Semantic Segmentation with Static Background (2025)
+
+- overview
+
+    - This paper introduces a novel approach for infrared gas semantic segmentation by leveraging static background information to improve accuracy. The proposed model, CGNet, is designed specifically for gas leakage scenarios.
+
+    - A new annotation methodology is presented, which involves differencing gas leakage images from their corresponding static backgrounds to precisely delineate leakage areas.
+
+    - Based on this method, the Contrast Gas Detection (CGD) dataset was created, containing 926 static background-gas image pairs from 38 video sequences. The dataset is categorized by release distance, amount, and gas type (SF6, CF4, and Water).
+
+    - The proposed model, CGNet, uses a Gas Contrast Attention (GCA) mechanism to compare features from the static background and the gas scene, which are processed by a ResNet backbone. It outperforms other widely used semantic segmentation models on the CGD dataset, with improvements of 5.83% in Accuracy, 5.57% in IoU, and 5.00% in FScore.
+
+- [paper](https://arxiv.org/pdf/2404.04018)
+
+- [code](https://github.com/ProAlize/CGNet) 
+
+- [datasets](https://github.com/ProAlize/CGNet) 
+
+
 
 
 ## Limit
