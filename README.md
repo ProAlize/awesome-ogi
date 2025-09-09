@@ -230,7 +230,7 @@ This study introduces a deep learning framework for detecting and quantifying bl
 
     - The proposed model, CGNet, uses a Gas Contrast Attention (GCA) mechanism to compare features from the static background and the gas scene, which are processed by a ResNet backbone. It outperforms other widely used semantic segmentation models on the CGD dataset, with improvements of 5.83% in Accuracy, 5.57% in IoU, and 5.00% in FScore.
 
-- [paper](https://arxiv.org/pdf/2404.04018)
+- [paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625016069)
 
 - [code](https://github.com/ProAlize/CGNet) 
 
