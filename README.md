@@ -36,6 +36,8 @@ Optical Gas Imaging (OGI) has become a key tool in gas leak detection and indust
 
             - [A lightweight network based on local-global feature fusion for real-time industrial invisible gas detection with infrared thermography](#a-lightweight-network-based-on-local-global-feature-fusion-for-real-time-industrial-invisible-gas-detection-with-infrared-thermography-2024)
 
+            - [Gaseous Object Detection](#Gaseous Object Detection2024) 
+
             - [LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset](#langgas-introducing-language-in-selective-zero-shot-background-subtraction-for-semi-transparent-gas-leak-detection-with-a-new-dataset-2025)
 
             - [GasSeg: A lightweight real-time infrared gas segmentation network for edge devices](#gasseg-a-lightweight-real-time-infrared-gas-segmentation-network-for-edge-devices-2025) 
@@ -191,6 +193,21 @@ This study introduces a deep learning framework for detecting and quantifying bl
 
 - datasets: *Not publicly available; the paper states, "Data will be made available on request"*.
 
+
+### Gaseous Object Detection (2024)
+
+- overview<br>
+    - This paper pioneers the task of Gaseous Object Detection (GOD), exploring whether deep learning–based object detection techniques can extend from solid to gaseous substances. It identifies key challenges such as saliency deficiency, arbitrary and ever-changing shapes, and lack of distinct boundaries that make gas objects fundamentally different from conventional ones.
+
+    - To support this study, the authors construct the GOD-Video dataset, consisting of 600 videos (141,017 frames) captured in both 3–5 μm and 8–12 μm infrared bands. It covers diverse gases, distances, visibility levels, and camera motions, providing the first large-scale benchmark for gaseous object detection.
+
+    - A physics-inspired Voxel Shift Field (VSF) is proposed, derived from the Gaussian dispersion model, to model 3D spatial-temporal irregularities of gas diffusion. Integrated into Faster RCNN, the resulting VSF RCNN effectively captures dynamic gas motion in the potential 3D space.
+
+    - On the GOD-Video benchmark, VSF RCNN improves AP₅₀ from 37.34 % to 51.08 % and demonstrates strong generalizability to other detectors (e.g., FCOS, RetinaNet, DETR). This establishes a solid baseline and encourages further research into gas-centric visual tasks such as classification, tracking, and segmentation.
+
+- [paper](https://ieeexplore.ieee.org/abstract/document/10648775)
+- [code](https://github.com/CalayZhou/Gaseous-Object-Detection)
+- [datasets](https://calayzhou.github.io/2022/05/04/Dataset/)
 
 ### LangGas: Introducing Language in Selective Zero-Shot Background Subtraction for Semi-Transparent Gas Leak Detection with a New Dataset (2025)
 - overview<br>
